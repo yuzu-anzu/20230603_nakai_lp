@@ -92,18 +92,23 @@ li {
 }
 
 .news-warp-list {
-    width: fit-content;
     margin: auto;
-    padding: 15px 15px;
     border-width: thin;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    margin-bottom: 100px;
 }
 
 .ul {
     border-width: thin;
     border-top-style: solid;
+}
+
+.li {
+    margin: auto;
+    display: flex;
+}
+
+.p {
+    display: inline-block;
+    text-align: center;
 }
 
 .btn-news {
@@ -135,24 +140,21 @@ li {
 
 .about-item {
     padding-top: 50px;
+    display: flex;
+    margin: auto;
 }
 
 .about-item-text {
-    margin-right: 450px; 
-    display: flex;
-}
-
-.about-text {
-    display: inline-block;
-    margin-right: 450px;
+    text-align: center;
 }
 
 .about-item__img {
-    margin-right: 250px;    
+    margin-right: 250px;   
 }
 .about-item__img img {
     width: 400px;
-    display: inline-block;
+    margin-right: 300px;
+
 }
 
 .service {
@@ -201,7 +203,6 @@ li {
     margin-left: 50px;
     margin-top: 30px;
     width: 120px;
-    margin: 10px 150px 30px 150px;
 }
 
 .box2-grid__parent-lead {
@@ -213,7 +214,7 @@ li {
 
 .box2-grid__parent-text {
     float: right;
-    margin-right: 50px;
+    margin-left: 100px;
     color: aliceblue;
 }
 
@@ -227,7 +228,6 @@ li {
     margin-left: 50px;
     margin-top: 30px;
     width: 120px;
-    margin: 10px 150px 30px 150px;
 }
 
 .box3-grid__parent-lead {
@@ -239,7 +239,7 @@ li {
 
 .box3-grid__parent-text {
     float: right;
-    margin-right: 50px;
+    margin-left: 100px;
     color: aliceblue;
 }
 
