@@ -446,9 +446,8 @@ li {
     margin-bottom: 200px;
 }
 
-.bottom-practoce__btn::before {
+.bottom-practoce::after{
     border: solid 1px #990099;
-    border-right: 20px;
 }
 
 .bottom-practoce__btn {
