@@ -138,20 +138,21 @@ li {
 }
 
 .about-item-text {
-    text-align: center; 
-    margin-right: 450px;    
+    margin-right: 450px; 
+    display: flex;
 }
 
 .about-text {
-    text-align: center;
+    display: inline-block;
     margin-right: 450px;
 }
 
 .about-item__img {
-    margin-right: 250px;
+    margin-right: 250px;    
 }
 .about-item__img img {
     width: 400px;
+    display: inline-block;
 }
 
 .service {
@@ -192,20 +193,67 @@ li {
     background-color: #CC0099;
 }
 
+.bo2-grid__parent-img {
+    width: 300px;
+}
+
+.box2-grid__parent-img img {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 120px;
+    margin: 10px 150px 30px 150px;
+}
+
+.box2-grid__parent-lead {
+    float: right;
+    margin: 30px 100px 30px 10px;
+    color: aliceblue;
+    width: auto;
+}
+
+.box2-grid__parent-text {
+    float: right;
+    margin-right: 50px;
+    color: aliceblue;
+}
+
 .box3 {
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: #990099;
 }
 
-.grid__parent-img {
+.box3-grid__parent-img img {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 120px;
+    margin: 10px 150px 30px 150px;
+}
+
+.box3-grid__parent-lead {
+    float: right;
+    margin: 30px 100px 30px 10px;
+    color: aliceblue;
     width: auto;
 }
 
-.grid__parent-img img{
-    width: 120px;
-    margin: 10px 150px 300px 150px;
+.box3-grid__parent-text {
+    float: right;
+    margin-right: 50px;
+    color: aliceblue;
+}
 
+.grid__parent-img {
+    width: 300px;
+}
+
+.grid__parent-img img {
+    width: 120px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    
 }
 
 .grid__parent-lead {
@@ -213,11 +261,13 @@ li {
     width: auto;
     text-align: center;
     vertical-align: super;
+    margin-bottom: 100px;
 }
 
 .grid__parent-text {
     color: aliceblue;
     text-align: center;
+    margin-left: 25px;
 }
 
 .content {
@@ -312,11 +362,9 @@ li {
     color: #CC0099;
     margin: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.main-bottom {
+.main-botton {
     margin-bottom: 50px;
 }
 
@@ -411,6 +459,7 @@ li {
     box-shadow: 0 5px 0 rgba(108, 1, 76, 0.636);
     display: block;
     margin-top: 100px;
+    margin: auto;
 }
 
 .copyright {
