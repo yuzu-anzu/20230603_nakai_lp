@@ -80,6 +80,7 @@ li {
 
 .news-warp {
     margin-top: 0px;
+    padding: 30px;
 }
 
 .news-warp-title {
@@ -92,23 +93,17 @@ li {
 }
 
 .news-warp-list {
-    margin: auto;
-    border-width: thin;
-}
-
-.ul {
-    border-width: thin;
-    border-top-style: solid;
-}
-
-.li {
-    margin: auto;
-    display: flex;
-}
-
-.p {
-    display: inline-block;
+    margin-left: 200px;
     text-align: center;
+    width: 800px;
+    border-top: solid 2px darkgray; 
+    border-bottom: solid 2px darkgray;
+}
+
+.news-date {
+    border-bottom: solid;
+    padding: 10px ;
+    border-color: silver;
 }
 
 .btn-news {
@@ -141,20 +136,21 @@ li {
 .about-item {
     padding-top: 50px;
     display: flex;
+    width: 1000px;
     margin: auto;
 }
 
 .about-item-text {
-    text-align: center;
+    
 }
 
 .about-item__img {
-    margin-right: 250px;   
+    margin-bottom: 50px;
 }
+
 .about-item__img img {
     width: 400px;
-    margin-right: 300px;
-
+    margin-left: 200px;
 }
 
 .service {
@@ -424,6 +420,7 @@ li {
 
 .bottom-right-img {
     position: relative;
+    margin-bottom: 20px;
 }
 
 .bottom-right-img img {
@@ -442,16 +439,25 @@ li {
 }
 
 .bottom-practoce {
-    text-align: center;
-    margin-bottom: 200px;
+    position: relative;
 }
 
-.bottom-practoce::after{
-    border: solid 1px #990099;
+.practoce-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.practoce-center {
+    position: absolute;
+    height: 50px;
+    border-right: solid 2px #990099;
+    margin-left: 750px;
+    margin-bottom: 200px;
 }
 
 .bottom-practoce__btn {
     text-align: center;
+    padding-top: 200px;
 }
 
 .mail-btn {
