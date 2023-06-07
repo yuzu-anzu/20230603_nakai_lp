@@ -196,22 +196,22 @@
 }
 
 .box2-grid__parent-img img {
+    float: left;
     margin-left: 50px;
     margin-top: 30px;
     width: 120px;
 }
 
 .box2-grid__parent-lead {
-    float: right;
-    margin: 30px 100px 30px 10px;
+    margin: 30px 270px 50px 50px;
     color: aliceblue;
     width: auto;
 }
 
 .box2-grid__parent-text {
-    float: right;
-    margin-left: 100px;
+    margin-left: 50px;
     color: aliceblue;
+    text-align: center;
 }
 
 .box3 {
@@ -221,22 +221,22 @@
 }
 
 .box3-grid__parent-img img {
+    float: left;
     margin-left: 50px;
     margin-top: 30px;
     width: 120px;
 }
 
 .box3-grid__parent-lead {
-    float: right;
-    margin: 30px 100px 30px 10px;
+    margin: 30px 270px 50px 50px;
     color: aliceblue;
     width: auto;
 }
 
 .box3-grid__parent-text {
-    float: right;
-    margin-left: 100px;
+    margin-left: 50px;
     color: aliceblue;
+    text-align: center;
 }
 
 .grid__parent-img {
@@ -254,16 +254,18 @@
 
 .grid__parent-lead {
     color: aliceblue;
-    width: auto;
+    width: 400px;
     text-align: center;
     vertical-align: super;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    margin-left: 50px;
 }
 
 .grid__parent-text {
     color: aliceblue;
     text-align: center;
-    margin-left: 25px;
+    width: 400px;
+    margin-left: 50px;
 }
 
 .content {
