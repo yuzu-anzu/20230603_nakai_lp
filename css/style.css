@@ -15,11 +15,11 @@
 }
 
 .header-img {
-    display: block;
+    text-align: right;
 }
 
 .header-img img {
-    width: 800px;
+    width: 60%;
     display: flex;
     padding-bottom: 100px;
     margin-left: auto;
@@ -282,6 +282,7 @@ li {
 
 .content {
     background-color: lightgray;
+    padding-bottom: 50px;
 }
 
 .content-blog {
@@ -309,13 +310,49 @@ li {
     margin: 60px;
     background-color: ghostwhite;
     border-radius: 10px 10px;
+    
 }
 
 .blog-card-content {
     background-color: #CC0099;
-    font-size: 20px;
-    display: inline-block;
+    font-size: 15px;
+    width: 60px;
+    height: 20px;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    color: ghostwhite;
     position: absolute;
+    left: 60px;
+}
+
+.blog-card-content-center {
+    background-color: #CC0099;
+    font-size: 15px;
+    width: 60px;
+    height: 20px;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    color: ghostwhite;
+    position: absolute;
+    left: 550px;
+    z-index: 1;
+}
+
+.blog-card-content-right {
+    background-color: #CC0099;
+    font-size: 15px;
+    width: 60px;
+    height: 20px;
+    padding-top: 5px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    color: ghostwhite;
+    position: absolute;
+    right: 370px;
+    z-index: 1;
+    }
 }
 
 .card-img {
@@ -464,16 +501,16 @@ li {
 }
 
 .practoce-center {
-    position: absolute;
-    height: 50px;
+    width: 300px;
+    height: 40px;
     border-right: solid 2px #990099;
-    margin-left: 750px;
-    margin-bottom: 200px;
+    margin-left: 440px;
+    margin-bottom: 50px;
 }
 
 .bottom-practoce__btn {
     text-align: center;
-    padding-top: 200px;
+    height: 100px;
 }
 
 .mail-btn {
