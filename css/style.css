@@ -74,18 +74,27 @@
     margin-left: 200px;
 }
 
-.news-warp {
-    margin-top: 0px;
-    padding: 30px;
+.news-warp-title {
+    width: 500px;
 }
 
-.news-warp-title {
-    margin: 0px 300px;
+.news-warp {
+    margin-top: 0px;
+    margin-left: 130px;
+    margin-bottom: 50px;
 }
 
 .news-warp__head {
     font-family: 'Indie Flower', cursive;
     color: #CC0099;
+    text-align: center;
+    margin-right: 70px;
+}
+
+.news-warp-h2 {
+    margin-bottom: 50px;
+    text-align: end;
+    margin-right: 240px;
 }
 
 .news-warp-list {
@@ -98,12 +107,15 @@
     list-style: none;
 }
 
+li {
+    list-style: none;
+}
+
 .news-date {
     border-bottom: solid;
     border-color: silver;
     margin-top: 20px;
     padding-bottom: 20px;
-    list-style: none;
 }
 
 .btn-news {
@@ -163,12 +175,12 @@
 .service-head {
     font-family: 'Indie Flower', cursive;
     color: #CC0099;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .service-h2 {
     font-size: 30px;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .grid__parent {
@@ -279,12 +291,12 @@
 .content-blog_head {
     font-family: 'Indie Flower', cursive;
     color: #CC0099;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .content-blog-h2 {
     font-size: 30px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .blog-card {
@@ -373,10 +385,12 @@
 .bottom__head {
     font-family: 'Indie Flower', cursive;
     color: #CC0099;
+    margin-left: 400px;
 }
 
 .bottom-h2 {
     font-size: 20px;
+    margin-left: 400px;
 }
 
 .profile {
