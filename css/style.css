@@ -1,8 +1,8 @@
 @media screen and (min-width:768px) {}
 
-.header-nav {
+* {
+    outline: 1px solid red !important;
 }
-
 
 .header-nav-title {
     margin-top: 20px;
@@ -98,10 +98,9 @@
 }
 
 .news-warp-list {
-    margin-left: 200px;
-    width: 800px;
     border-top: solid 2px darkgray; 
     border-bottom: solid 2px darkgray;
+    margin-left: 200px;
     padding: 0;
     display: list-item;
     list-style: none;
@@ -148,8 +147,7 @@ li {
 .about-item {
     padding-top: 50px;
     display: flex;
-    width: 1000px;
-    margin: auto;
+    margin-left: 3%;
 }
 
 .about-item-text {
@@ -162,7 +160,7 @@ li {
 
 .about-item__img img {
     width: 400px;
-    margin-left: 200px;
+    margin-left: 3%;
 }
 
 .service {
@@ -187,8 +185,8 @@ li {
     display: grid;
     grid-template-rows: 250px 250px;
     grid-template-columns: 1fr 1fr;
-    margin: 0px 200px;
     margin-bottom: 100px;
+    margin: 0px 50px;
 }
 
 .box1 {
@@ -204,7 +202,8 @@ li {
 }
 
 .bo2-grid__parent-img {
-    width: 300px;
+    width: 30%;
+    padding: 50%;
 }
 
 .box2-grid__parent-img img {
@@ -215,7 +214,7 @@ li {
 }
 
 .box2-grid__parent-lead {
-    margin: 30px 270px 50px 50px;
+    margin: 5% 15% 15% 5%;
     color: aliceblue;
     width: auto;
 }
@@ -240,7 +239,7 @@ li {
 }
 
 .box3-grid__parent-lead {
-    margin: 30px 270px 50px 50px;
+    margin: 5% 15% 15% 5%;
     color: aliceblue;
     width: auto;
 }
@@ -256,8 +255,7 @@ li {
 }
 
 .grid__parent-img img {
-    width: 120px;
-    margin-left: 200px;
+    margin-left: 50%;
     margin-top: 20px;
     margin-bottom: 50px;
     text-align: center;
@@ -265,18 +263,15 @@ li {
 }
 
 .grid__parent-lead {
+    vertical-align: center;
     color: aliceblue;
     width: 400px;
     text-align: center;
-    vertical-align: super;
     margin-bottom: 80px;
-    margin-left: 50px;
 }
 
 .grid__parent-text {
     color: aliceblue;
-    text-align: center;
-    width: 400px;
     margin-left: 50px;
 }
 
@@ -306,8 +301,8 @@ li {
 }
 
 .card {
-    width: 50%;
-    margin: 60px;
+    width: 30%;
+    margin: 3%;
     background-color: ghostwhite;
     border-radius: 10px 10px;
     
@@ -323,7 +318,7 @@ li {
     text-align: center;
     color: ghostwhite;
     position: absolute;
-    left: 60px;
+    left: 3%;
 }
 
 .blog-card-content-center {
@@ -336,7 +331,7 @@ li {
     text-align: center;
     color: ghostwhite;
     position: absolute;
-    left: 550px;
+    left: 36.4%;
     z-index: 1;
 }
 
@@ -350,7 +345,7 @@ li {
     text-align: center;
     color: ghostwhite;
     position: absolute;
-    right: 370px;
+    right: 26.2%;
     z-index: 1;
     }
 }
@@ -422,12 +417,12 @@ li {
 .bottom__head {
     font-family: 'Indie Flower', cursive;
     color: #CC0099;
-    margin-left: 400px;
+    margin-left: 5%;
 }
 
 .bottom-h2 {
     font-size: 20px;
-    margin-left: 400px;
+    margin-left: 5%;
 }
 
 .profile {
@@ -504,7 +499,7 @@ li {
     width: 300px;
     height: 40px;
     border-right: solid 2px #990099;
-    margin-left: 440px;
+    margin-left: 16%;
     margin-bottom: 50px;
 }
 
